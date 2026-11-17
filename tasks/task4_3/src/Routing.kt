@@ -9,3 +9,6 @@ fun Application.configureRouting() {
         staticResources("/","static")
     }
 }
+
+// Ktor should satisfy GET requests for static content using files under directory "static"
+// "/" means no special prefix for static resources

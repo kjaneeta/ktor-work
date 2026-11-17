@@ -1,0 +1,4 @@
+Static content can be served from
+1. The filesystem -> staticFiles
+2. A Zip archive -> staticZip
+3. application classpath -> staticResources()
